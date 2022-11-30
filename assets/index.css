@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "zcool";
+    src: url("./zcool.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "zcool";
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.container{
+    position: relative;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.counter{
+    position: relative;
+    margin: 30px 0;
+}
+.counter span{
+    font-size: 50px;
+}
+.btn{
+    outline: none;
+    appearance: none;
+    border: 2px solid #111;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.btn:nth-child(2){
+    margin: 0px 20px;
+}
+.btn-decrease:hover{
+    background: rgb(236, 122, 122);
+}
+.btn-reset:hover{
+    background: rgb(218, 207, 115);
+}
+.btn-increase:hover{
+    background: rgb(104, 179, 104);
+}
